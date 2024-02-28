@@ -191,34 +191,86 @@ article#art-atuation a {
 }
 
 article#container-ar {
-    background-color: cadetblue;
     display: flex;
     margin-top: 30px;
-    padding: 10px;
+    padding: 10px 0 10px 10px 10px;
     min-width: 100%;
-    height: 650px;
+    height: 100%;
 }
 
 section.ar {
+    background-color: #eff3f4;
     display: inline-block;
     max-width: 30%;
+    height: 530px;
     margin: 0 auto;
+    
 }
 
 section.ar img {
-    width: 350px;
+    width: 100%;
     height: 50%;
+    
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 830px) {
     article#container-ar {
-        
+        display: block;
     }
 
     section.ar {
-        display: list-item;
-        max-width: 30%;
+        display: block;
+        max-width: 100%;
         margin: 0 auto;
     }
 
+    section.ar img {
+        width: 100%;
+        height: 385px;
+    }
+
+    section.ar h3, p {
+        text-align: center;
+    }
+
+}
+
+article#art-about {
+    display: flex;
+    margin-top: 30px;
+}
+
+section#about01 {
+    color: white;
+    background-image: url(imagens/pattern.png);
+    background-size: cover;
+    display: inline-block;
+    width: 50%;
+    height: 600px;
+}
+
+div#content {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+div#content p {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+div#content h3 {
+    margin-top: 0;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+div#content ul {
+    margin-left: 25px;
+}
+
+div#content h4 {
+    font-size: 1.4rem;
 }
