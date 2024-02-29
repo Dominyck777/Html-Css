@@ -274,3 +274,28 @@ div#content ul {
 div#content h4 {
     font-size: 1.4rem;
 }
+
+section#about02 {
+    width: 50%;
+    
+    background-color: rgb(216, 243, 234);
+}
+
+div#content02 {
+    background-color: aquamarine;
+    display: flex;
+    height: 100%;
+}
+
+div.box {
+    background-color: rgb(210, 146, 100);
+    display: flex;
+    width: 75%;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+}
+
+p#number {
+   
+}
