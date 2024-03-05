@@ -216,13 +216,15 @@ section.ar img {
 @media (max-width: 750px) {
     article#container-ar {
         display: block;
+        background-color: #eff3f4;
+        align-items: center;
     }
 
     section.ar {
         display: block;
-        max-width: 100%;
-        margin: 45px auto;
+        max-width: 70%;
         height: auto;
+        margin: 50px auto;
     }
 
     section.ar img {
@@ -239,6 +241,15 @@ section.ar img {
         margin: 0;
         text-align: justify;
     }
+
+}
+
+@media (max-width: 495px) {
+
+    section.ar {
+        height: 586px;
+    }
+
 
 }
 
