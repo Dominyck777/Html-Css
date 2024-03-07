@@ -426,5 +426,180 @@ p.inf-content {
 }
 
 article#depoiment {
-    
+    display: flex;
+    margin: 25px 0;
+    height: auto;
+}
+
+section#box-dep01 {
+    width: 50%;
+}
+
+article#depoiment h3 {
+    color: rgb(207, 21, 21);
+    font-size: 1.1rem;
+    text-align: end;
+}
+
+p.text-dep {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: end;
+}
+
+p.dep-name {
+    color: rgb(207, 21, 21);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: end;
+}
+
+p.profission-dep {
+    text-align: end;
+}
+
+div.img-dep {
+    text-align: end;
+}
+
+div.img-dep img {
+    width: 100px;
+    height: 100px;
+}
+
+section#box-dep02 {
+    width: 50%;
+}
+
+div#img-dep {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+div#img-dep img {
+    max-width: 90%;
+}
+
+@media (max-width: 785px) {
+    div#img-dep img {
+        height: 200px;
+    }
+}
+
+article#team {
+    width: auto;
+    height: auto;
+    margin-top: 70px;
+}
+
+article#team h3 {
+    width: 80%;
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px auto;
+}
+
+div#tittle {
+    width: 100%;
+    height: auto;
+}
+
+span#color {
+    color: rgb(232, 22, 22);
+}
+
+section#sec-team {
+    max-width: 96%;
+    margin: auto;
+}
+
+div.person {
+    display: inline-block;
+    width: 270px;
+    margin: 40px 20px;
+}
+
+div.person img {
+    width: 270px;
+}
+
+p.name-person {
+    color: rgb(232, 22, 22);
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+p.profission-person {
+    text-align: center;
+}
+
+@media (max-width: 1322px) {
+
+    article#team h3 {
+        margin-bottom: 30px;
+    }
+
+    section#sec-team {
+        width: 87%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+article#contact {
+    background-color: rgb(232, 22, 22);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#box-img {
+    width: 55%;
+    padding: 5px 0 0 5px;
+}
+
+section#box-img img {
+    width: 100%;
+}
+
+section#content {
+    width: 45%;
+}
+
+section#content h3 {
+    width: 64%;
+    margin: 10px auto;
+}
+
+div#box-input01 {
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+
+div#box-input01 input {
+    min-width: 35%;
+    margin: 5px;
+    padding: 15px 20px;
+    border: none;
+}
+
+div#box-input02 {
+    width: 75%;
+    margin: auto;
+}
+
+div#box-input02 input {
+    display: block;
+    min-width: 75%;
+    margin: 10px auto;
+    padding: 15px 20px;
+    border: none;
 }
